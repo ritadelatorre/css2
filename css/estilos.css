@@ -1,0 +1,89 @@
+html {
+  background-color: #72b01d;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Nunito, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3em;
+  background-color: #503b31;
+  background-image: url('../img/selva.jpeg');
+  font-weight: 500;
+  border-left:#ffffff 10px double;
+  border-right:#ffffff 10px double;
+  -webkit-user-select: none;
+  /* Compatibilidad con WebKit */
+  user-select: none;
+  /* Para navegadores modernos */  
+}
+h1 {
+    color: #72b01d;
+    text-align: center;
+    text-shadow: white 1px 1px; 
+    font-weight: 900;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+}
+
+.video {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.estrofa {
+  border: #e8fccf 5px solid;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-right: #e8fccf 20px solid;
+  margin-right: 30%;
+  padding: 1em;
+  background-color: #fafafa;
+  color: black;
+}
+
+.hablado {
+  border: #e8fccf 5px solid;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-left: #e8fccf 20px solid;
+  margin-left: 30%;
+  padding: 1em;
+  background-color: #fafafa;
+  color: black;
+  font-weight: 600;
+  text-align: right;
+  font-style: oblique;
+}
+
+.coro {
+  border: #72b01d 7px inset;
+  border-radius: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 1em;
+  background-color: #fafafa;
+  color: #503b31;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-family: Dotum;
+}
+
+.oculto {
+  display: none;
+}
+
+b {
+  color: #D40000;
+}
+
+img {
+  width: 120px;
+}
+
+span {
+  font-size: 1.2em;
+}
