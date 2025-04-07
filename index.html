@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de Elemento HTML</title>
+  <link rel="shortcut icon" href="./img/smile.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/estilos.css">
+  <script src="./js/bloquear.js"></script>
+  <style>
+    body {
+      background-color: #fafafa;
+      background-image: none;
+    }
+
+    h1 {
+      font-size: 1.6em;
+    }
+
+    h2 {
+      font-size: 1.4em;
+    }
+
+    table,
+    td,
+    th {
+      border: 1px solid grey;
+      padding-left: 1em;
+    }
+
+    table {
+      width: 90%;
+      border-collapse: collapse;
+    }
+
+    td:nth-child(1) {
+      font-weight: bold;
+      font-family: monospace;
+    }
+
+    th {
+      background-color: #72b01d;
+      color: #fafafa;
+    }
+    b {
+      font-family: monospace;
+    }
+    h4 {
+      margin-bottom: 2px;
+    }
+    p {
+      margin-top: 2px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Elementos en bloque y elementos en línea</h1>
+  <p><a href="#ejercicio">Ejercicio</a></p>
+  <h2>Elementos en bloque</h2>
+  <p>Los elementos en bloque suelen ocupar todo el ancho disponible del dispositivo (respetando márgenes y paddings) y
+    comienzan en una nueva línea.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Elemento</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;article></td>
+        <td>Contenedor de contenido independiente.</td>
+      </tr>
+      <tr>
+        <td>&lt;aside></td>
+        <td>Barras laterales.</td>
+      </tr>
+      <tr>
+        <td>&lt;blockquote></td>
+        <td>Citas de texto largas de otra fuente.</td>
+      </tr>
+      <tr>
+        <td>&lt;canvas></td>
+        <td>Área de dibujo para gráficos y animaciones con JavaScript.</td>
+      </tr>
+      <tr>
+        <td><b>&lt;div><sup>*</sup></b></td>
+        <td>Caja (contenedor) genérico para estructurar contenido.</td>
+      </tr>
+      <tr>
+        <td>&lt;dl></td>
+        <td>Lista de definiciones con términos y descripciones.</td>
+      </tr>
+      <tr>
+        <td>&lt;fieldset></td>
+        <td>Agrupación de campos de un formulario.</td>
+      </tr>
+      <tr>
+        <td>&lt;figure></td>
+        <td>Descrición de una imagen</td>
+      </tr>
+      <tr>
+        <td>&lt;footer></td>
+        <td>Pie de página de un documento o sección.</td>
+      </tr>
+      <tr>
+        <td>&lt;form></td>
+        <td>Contenedor para formularios y entradas de usuario.</td>
+      </tr>
+      <tr>
+        <td>&lt;h1> – &lt;h6></td>
+        <td>Encabezados (títulos) de distintos niveles para estructurar el contenido.</td>
+      </tr>
+      <tr>
+        <td>&lt;header></td>
+        <td>Encabezado de página o sección.</td>
+      </tr>
+      <tr>
+        <td><b>&lt;hr><sup>*</sup></b></td>
+        <td>Línea horizontal</td>
+      </tr>
+      <tr>
+        <td>&lt;li></td>
+        <td>Elemento dentro de una lista &lt;ol> o &lt;ul>.</td>
+      </tr>
+      <tr>
+        <td>&lt;main></td>
+        <td>Caja con el contenido principal de la página web.</td>
+      </tr>
+      <tr>
+        <td>&lt;nav></td>
+        <td>Menú principal de la página</td>
+      </tr>
+      <tr>
+        <td>&lt;ol></td>
+        <td>Lista ordenada con números o letras.</td>
+      </tr>
+      <tr>
+        <td>&lt;p> </td>
+        <td>Párrafo de texto.</td>
+      </tr>
+      <tr>
+        <td><b>&lt;pre><sup>*</sup></b></td>
+        <td>Texto preformateado que respeta espacios y saltos de línea.</td>
+      </tr>
+      <tr>
+        <td>&lt;section></td>
+        <td>Cajas con contenido temático.</td>
+      </tr>
+      <tr>
+        <td>&lt;table></td>
+        <td>Tabla para organizar información en filas y columnas.</td>
+      </tr>
+      <tr>
+        <td>&lt;ul></td>
+        <td>Lista con viñetas</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Elementos en línea</h2>
+  <p>No interrumpen el flujo del contenido, solo ocupan el espacio necesario y pueden estar dentro de una línea de
+    texto.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Elemento</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;a></td>
+        <td>Crear enlace o marcador.</td>
+      </tr>
+      <tr>
+        <td>&lt;abbr></td>
+        <td>Abreviatura</td>
+      </tr>
+      <tr>
+        <td><b>&lt;b></b></td>
+        <td>Negritas</td>
+      </tr>
+      <tr>
+        <td><b>&lt;br></b></td>
+        <td>Salto de línea</td>
+      </tr>
+      <tr>
+        <td><b>&lt;button></b></td>
+        <td>Botón de formulario. </td>
+      </tr>
+      <tr>
+        <td>&lt;cite></td>
+        <td>Citar fuente o referencia. </td>
+      </tr>
+      <tr>
+        <td><b>&lt;code></b></td>
+        <td>Texto con formato de código, como <b>&lt;kbd></b> y <b>&lt;var></b>.</td>
+      </tr>
+      <tr>
+        <td>&lt;em></td>
+        <td>Énfasis</td>
+      </tr>
+      <tr>
+        <td><b>&lt;i></b></td>
+        <td>Cursiva</td>
+      </tr>
+      <tr>
+        <td>&lt;img></td>
+        <td>Imagen</td>
+      </tr>
+      <tr>
+        <td>&lt;input></td>
+        <td>Campo de entrada de datos en un formulario.</td>
+      </tr>
+      <tr>
+        <td>&lt;label></td>
+        <td>Etiqueta descriptiva para un elemento de formulario.</td>
+      </tr>
+      <tr>
+        <td>&lt;mark></td>
+        <td>Texto resaltado</td>
+      </tr>
+      <tr>
+        <td>&lt;q></td>
+        <td>Cita breve dentro del texto.</td>
+      </tr>
+      <tr>
+        <td><b>&lt;s></b></td>
+        <td>Tachado</td>
+      </tr>
+      <tr>
+        <td>&lt;select></td>
+        <td>Lista desplegable</td>
+      </tr>
+      <tr>
+        <td><b>&lt;span></b></td>
+        <td>Caja en límea (para seleccionar texto)</td>
+      </tr>
+      <tr>
+        <td>&lt;strong></td>
+        <td>Importante!</td>
+      </tr>
+      <tr>
+        <td><b>&lt;sub></b></td>
+        <td>Subíndice</td>
+      </tr>
+      <tr>
+        <td><b>&lt;sup></b></td>
+        <td>Superíndice</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Cambio de elemento de bloque a línea y viceversa</h2>
+  <p>Por defecto, los elementos en bloque como por ejemplo <code>&lt;div>, &lt;li>, &lt;section></code> y <code>&lt;article></code> son de bloque, lo que significa que ocupan todo el ancho disponible y generan un salto de línea.</p>
+  <p>Si quieres que un elemento en bloque se comporte como en línea, se usa en CSS la regla: </p> 
+  <pre>
+    <i>elemento</i> {
+      display: inline;
+    }
+  </pre>
+  <p>En cambio, los elementos como <code>&lt;a>, &lt;span>, &lt;strong>, &lt;em></code> o <code>&lt;img></code> son elementos en línea, es decir, no interrumpen el flujo del texto. Si se desea que un elemento en línea actúe como un bloque se usa:</p>
+  <pre>
+    <i>elemento</i> {
+      display: block;
+    }    
+  </pre>
+  <h2>¿Qué es display: inline-block;?</h2>
+  <p>Este valor combina lo mejor de ambos mundos:</p>
+  <ul>
+    <li>Se comporta como un elemento en línea, <strong>por lo que no genera saltos de línea</strong>.</li>
+    <li>Admite propiedades de bloque, como <code>width</code> y <code>height</code></li>
+  </ul>
+  <p>Ejemplo:</p>
+  <pre>
+    <i>elemento</i>  {
+      display: inline-block;
+      width: 150px;
+      height: 40px;
+      background-color: lightblue;
+    }
+  </pre>
+  <h3>Propiedades específicas de los elementos en bloque</h3>
+  <ol>
+    <li>
+      <h4>Ocupan todo el ancho disponible</h4>      
+      <p>Por defecto, un elemento en bloque <strong>se expande horizontalmente hasta ocupar el ancho completo de su contenedor padre</strong>, incluso si su contenido es menor.</p>
+    </li>
+    <li>    
+      <h4>Generan un salto de línea antes y después</h4>      
+      <p>Cada vez que se usa un elemento en bloque, este hace que el siguiente contenido aparezca en una nueva línea, separándolo visualmente.</p>
+    </li>
+    <li>  
+      <h4>Se pueden modificar con <b>width</b> y <b>height</b></h4>      
+      <p>A diferencia de los elementos en línea, los bloques permiten establecer un ancho (width) y una altura (height) sin problemas.</p>
+    </li>
+    <li>
+      <h4>Admiten márgenes (<b>margin</b>) y relleno (<b>padding</b>) en todas direcciones</h4>      
+      <p>Se les puede aplicar márgenes y relleno en todos los lados de un bloque (top, right, bottom, left), sin restricciones.</p>      
+    </li>
+    <li>
+      <h4>Pueden contener otros elementos en bloque o en línea</h4>      
+      <p>Un elemento en bloque puede albergar otros bloques o elementos en línea sin problemas. Por ejemplo, <code>&lt;div></code> puede contener <code>&lt;p>, &lt;h1>, &lt;span></code>, etc.</p>   
+      </li>
+  </ol>
+  <a name="ejercicio"></a>
+  <h2>Ejercicio</h2>
+  <p>Crea una página web como la del siguiente enlace (<em><a target="_blank" href="cancion.html">click</a></em>)</p>  
+  <ul>  
+    <li><p>El html tiene un color verde.</p></li>
+    <li><p>El ancho del body es de 80%</p></li>
+    <li><p>Para mostrar una imagen como fondo del body, usa la siguiente regla css:<br>
+    <code>background-image: url('../img/selva.jpeg');</code></p></li>
+    <li><p>Cambia el ancho (<code>width</code>) a los párrafos y asígnales un margen izquierdo o derecho, según sea el caso.</p></li>
+    <li><p>Para redondear un borde se usa:<br>
+    <code>border-top-left-radius: 12px;</code><br>
+    donde <code>left</code> y <code>top</code> cambian según la esquina a redondear.
+    </p></li>
+  </ul>
+    
+</body>
+
+</html>
